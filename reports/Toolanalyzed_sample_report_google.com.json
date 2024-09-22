@@ -1,0 +1,21 @@
+{
+    "cookie_count": 2,
+    "categories": {
+        "strictly_necessary": 0,
+        "performance": 0,
+        "tracking": 0,
+        "unknown": 0
+    },
+    "compliance": "pass",
+    "ssl_status": "secure",
+    "xss_vulnerabilities": "XSS vulnerabilities found in 2 input fields.",
+    "third_party_scripts": "No third-party scripts found.",
+    "zap_vulnerabilities": [],
+    "nmap_vulnerabilities": {},
+    "accessibility": "Accessibility issues found (missing alt text or labels).",
+    "privacy_policy": "Privacy Policy found on the site.",
+    "content_security_policy": "Warning: No Content Security Policy (CSP) header found.",
+    "cors_policy": "Warning: No CORS policy found.",
+    "beacon_count": 0,
+    "beacon_found": false
+}
