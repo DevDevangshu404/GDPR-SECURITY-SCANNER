@@ -1,5 +1,7 @@
 # GDPR Compliance Checker with OWASP ZAP and Nmap Integration
 
+### Check more about it on my website: https://www.devangshumazumder.com/projects/content/gdpr-nmap/gdpr
+
 ## Description
 
 This **GDPR Compliance Checker** helps websites and companies ensure their compliance with GDPR regulations and enhances their security posture by identifying potential vulnerabilities. It scans for cookies, checks transmission security, analyzes third-party scripts, assesses accessibility, and integrates **OWASP ZAP** and **Nmap** for in-depth security scans.
