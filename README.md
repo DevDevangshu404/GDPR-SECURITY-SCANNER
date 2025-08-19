@@ -1,10 +1,10 @@
-# GDPR Compliance Checker with OWASP ZAP and Nmap Integration
+# GDPR Compliance Checker with OWASP ZAP Integration
 
 ### Check more about it on my website: https://www.devangshumazumder.com/projects/content/gdpr-nmap/gdpr
 
 ## Description
 
-This **GDPR Compliance Checker** helps websites and companies ensure their compliance with GDPR regulations and enhances their security posture by identifying potential vulnerabilities. It scans for cookies, checks transmission security, analyzes third-party scripts, assesses accessibility, and integrates **OWASP ZAP** and **Nmap** for in-depth security scans.
+This **GDPR Compliance Checker** helps websites and companies ensure their compliance with GDPR regulations and enhances their security posture by identifying potential vulnerabilities. It scans for cookies, checks transmission security, analyzes third-party scripts, assesses accessibility, and integrates **OWASP ZAP**.
 
 ### Key Features:
 ***
@@ -14,7 +14,6 @@ This **GDPR Compliance Checker** helps websites and companies ensure their compl
 - **Third-Party Script Analysis**: Identifies third-party scripts, such as Google Analytics and Facebook tracking, and checks for compliance with GDPR.
 - **Accessibility Compliance**: Assesses the website's accessibility by checking for alt text and form labels, ensuring compliance with WCAG.
 - **OWASP ZAP Security Scanning**: Integrates with **OWASP ZAP** for identifying vulnerabilities like SQL injection, XSS, and more.
-- **Nmap Network Scan**: Uses **Nmap** to scan for open ports and services, identifying network vulnerabilities.
 ***
 
 ## Prerequisites
@@ -29,19 +28,12 @@ This **GDPR Compliance Checker** helps websites and companies ensure their compl
     - re
     - argparse
     - zapv2 (for OWASP ZAP integration)
-    - python-nmap (for Nmap integration)
 
 ### Install the required dependencies:
 ```bash
 pip install splinter pdfkit requests argparse zapv2 python-nmap
 ```
 
-### ZAP and NMAP in systems
-- I used MACBOOK bro 2017
-
-```bash
-brew install nmap
-```
 
 ## Usage
 
